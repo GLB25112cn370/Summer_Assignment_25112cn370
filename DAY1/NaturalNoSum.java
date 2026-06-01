@@ -1,9 +1,13 @@
+package DAY1;
 
 import java.util.Scanner;
-public class NaturalNumberSum {
-     
-    public static void main(String[] args) {
-        int n ;
+
+public class NaturalNoSum { 
+    public static void main(String[]args){
+
+    
+    
+    int n ;
         int sum =0;
         Scanner  scanner  = new Scanner(System.in);
 
@@ -15,5 +19,6 @@ public class NaturalNumberSum {
         System.out.println("The sum of the first " + n + " natural numbers is: " + sum);
 
     scanner.close();
+    
 }
 }

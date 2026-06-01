@@ -1,4 +1,7 @@
-import java .util.Scanner;
+package DAY1;
+
+import java.util.Scanner;
+
 public class CountDigit {
     public static void main(String[]args){
         int n;
@@ -13,5 +16,6 @@ public class CountDigit {
         System.out.println("Number of digits in the given number is: " + count);
         scanner.close();
     }
+    
     
 }

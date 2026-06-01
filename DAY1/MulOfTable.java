@@ -1,6 +1,8 @@
+package DAY1;
+
 import java.util.Scanner;
 
-public class Table {
+public class MulOfTable {
     public static void main(String[]args){
         int number;
         Scanner scanner = new Scanner(System.in);
@@ -11,5 +13,6 @@ public class Table {
         }
         scanner.close();
     }
+    
     
 }

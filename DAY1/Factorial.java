@@ -1,6 +1,9 @@
-import java .util.Scanner;
+package DAY1;
+
+import java.util.Scanner;
+
 public class Factorial {
-    public static void main(String[]args){
+     public static void main(String[]args){
         int number;
         int factorial=1;
         Scanner scanner=new Scanner(System.in);
@@ -12,4 +15,5 @@ public class Factorial {
         System.out.println("Factorial of " + number + " is: " + factorial);
         scanner.close();
     }
+    
 }
